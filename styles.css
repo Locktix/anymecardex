@@ -649,4 +649,62 @@ body {
 .footer-copyright {
     font-size: 0.95em;
     color: #bdbdbd;
+}
+
+.report-issue-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(239, 68, 68, 0.1);
+    color: #ef4444;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(239, 68, 68, 0.2);
+}
+
+.report-issue-btn:hover {
+    background: rgba(239, 68, 68, 0.15);
+    color: #dc2626;
+    border-color: rgba(239, 68, 68, 0.3);
+}
+
+.report-issue-btn i {
+    font-size: 0.75rem;
+}
+
+.footer-actions {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.suggest-feature-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(59, 130, 246, 0.1);
+    color: #3b82f6;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(59, 130, 246, 0.2);
+}
+
+.suggest-feature-btn:hover {
+    background: rgba(59, 130, 246, 0.15);
+    color: #2563eb;
+    border-color: rgba(59, 130, 246, 0.3);
+}
+
+.suggest-feature-btn i {
+    font-size: 0.75rem;
 } 
