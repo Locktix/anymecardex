@@ -41,13 +41,27 @@ AnymeTCG/
 ├── index.html          # Page principale
 ├── styles.css          # Styles CSS
 ├── script.js           # Logique JavaScript
-├── README.md           # Documentation
+├── cards-data.js       # Base de données des cartes (51 cartes)
+├── config.js           # Configuration
+├── README.md           # Documentation complète
+├── .gitignore          # Fichiers à ignorer
 └── Assets/             # Images des cartes
     └── Card/
-        ├── Edition 1/
-        ├── Edition 3 - Ere Shatta/
-        └── Promotion/
+        ├── Edition 1/          # 15 cartes
+        ├── Edition 3 - Ere Shatta/  # 34 cartes
+        └── Promotion/          # 2 cartes
 ```
+
+## 📊 Collection complète
+
+**Total : 51 cartes**
+
+- **Édition 1** : 15 cartes
+  - 6 Common, 1 Rare, 3 Double Rare, 3 Ultra Rare, 2 Amazing Rare
+- **Édition 3 - Ere Shatta** : 34 cartes  
+  - 14 Common, 6 Rare, 4 Double Rare, 6 Ultra Rare, 4 Amazing Rare
+- **Promotion** : 2 cartes
+  - 1 Ultra Rare, 1 Amazing Rare
 
 ## 🌐 Publication
 
