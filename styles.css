@@ -618,4 +618,35 @@ body {
 
 .empty-state p {
     font-size: 1.1rem;
+}
+
+.footer {
+    margin-top: 40px;
+    background: rgba(255,255,255,0.95);
+    border-radius: 16px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+    padding: 24px 0 16px 0;
+    text-align: center;
+    font-size: 0.98rem;
+    color: #6b7280;
+}
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+}
+.footer-version {
+    font-weight: 600;
+    color: #4f46e5;
+}
+.footer-disclaimer {
+    font-size: 0.95em;
+    color: #9ca3af;
+    margin: 4px 0;
+}
+.footer-copyright {
+    font-size: 0.95em;
+    color: #bdbdbd;
 } 

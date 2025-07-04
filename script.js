@@ -285,4 +285,14 @@ function loadLazyImages() {
   });
   
   lazyImages.forEach(img => imageObserver.observe(img));
-} 
+}
+
+// Affichage dynamique de la version dans le footer
+fetch('version.txt')
+  .then(response => response.text())
+  .then(version => {
+    const footerVersion = document.getElementById('footerVersion');
+    if (footerVersion) {
+      footerVersion.textContent = version.trim();
+    }
+  }); 
