@@ -96,6 +96,7 @@ const cardModal = document.getElementById('cardModal');
 const cardDetail = document.getElementById('cardDetail');
 const closeModal = document.querySelector('.close');
 const ownedFilter = document.getElementById('ownedFilter');
+const themeToggle = document.getElementById('themeToggle');
 
 function filterAndRender() {
   let filtered = cardsData.filter(card => {
@@ -191,6 +192,7 @@ function showLoading() {
 
 // Initialisation avec animation
 document.addEventListener('DOMContentLoaded', function() {
+  loadTheme(); // Charger le thème sauvegardé
   loadCollection(); // Charger la collection depuis les cookies
   updateCollectionStats(); // Mettre à jour les statistiques
   showLoading();
@@ -295,4 +297,36 @@ fetch('version.txt')
     if (footerVersion) {
       footerVersion.textContent = version.trim();
     }
-  }); 
+  });
+
+// Gestion du thème sombre
+function loadTheme() {
+  const savedTheme = localStorage.getItem('anymecardex_theme');
+  if (savedTheme) {
+    document.documentElement.setAttribute('data-theme', savedTheme);
+    updateThemeIcon(savedTheme === 'dark');
+  }
+}
+
+function toggleTheme() {
+  const currentTheme = document.documentElement.getAttribute('data-theme');
+  const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+  
+  document.documentElement.setAttribute('data-theme', newTheme);
+  localStorage.setItem('anymecardex_theme', newTheme);
+  updateThemeIcon(newTheme === 'dark');
+}
+
+function updateThemeIcon(isDark) {
+  const icon = themeToggle.querySelector('i');
+  if (isDark) {
+    icon.className = 'fas fa-moon';
+    themeToggle.classList.add('dark');
+  } else {
+    icon.className = 'fas fa-sun';
+    themeToggle.classList.remove('dark');
+  }
+}
+
+// Événement pour le bouton de thème
+themeToggle.addEventListener('click', toggleTheme); 
