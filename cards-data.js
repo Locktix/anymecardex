@@ -1,4 +1,4 @@
-// Base de données complète des cartes Anyme
+// Base de données complète des cartes Anyme avec images PNG locales
 const cardsData = [
   // ===== ÉDITION 1 (15 cartes) =====
   
@@ -7,7 +7,7 @@ const cardsData = [
     name: "Anyme023",
     edition: "Edition 1",
     rarity: "Common",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Anyme023.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 1/Common/Anyme023.png",
     description: "La carte de base, représentant l'esprit Anyme.",
     stats: { PV: 50, Attaque: 15, Défense: 10 }
   },
@@ -15,7 +15,7 @@ const cardsData = [
     name: "Le Bobo Riche",
     edition: "Edition 1",
     rarity: "Common",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Le_Bobo_Riche.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 1/Common/Le_Bobo_Riche.png",
     description: "Un bobo qui aime le luxe et les brunchs à Paris. Toujours à la recherche du meilleur restaurant branché.",
     stats: { PV: 80, Attaque: 20, Défense: 10 }
   },
@@ -23,7 +23,7 @@ const cardsData = [
     name: "Le Chauffard",
     edition: "Edition 1",
     rarity: "Common",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Le_Chauffard.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 1/Common/Le_Chauffard.png",
     description: "Toujours pressé, jamais à l'heure. Maître de l'art de la conduite parisienne.",
     stats: { PV: 60, Attaque: 30, Défense: 5 }
   },
@@ -31,7 +31,7 @@ const cardsData = [
     name: "Diego Flamengo",
     edition: "Edition 1",
     rarity: "Common",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Diego_Flamengo.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 1/Common/Diego_Flamengo.png",
     description: "Le roi du football brésilien. Ses dribbles sont légendaires.",
     stats: { PV: 85, Attaque: 45, Défense: 15 }
   },
@@ -39,7 +39,7 @@ const cardsData = [
     name: "Taper Laser",
     edition: "Edition 1",
     rarity: "Common",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Taper_Laser.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 1/Common/Taper_Laser.png",
     description: "Attaque laser dévastatrice. Attention aux yeux !",
     stats: { PV: 70, Attaque: 60, Défense: 8 }
   },
@@ -47,7 +47,7 @@ const cardsData = [
     name: "Le Bobo 80PV",
     edition: "Edition 1",
     rarity: "Common",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/le_bobo_80pv.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 1/Common/le_bobo_80pv.png",
     description: "Un bobo avec 80 points de vie. Plus résistant que les autres.",
     stats: { PV: 80, Attaque: 25, Défense: 20 }
   },
@@ -57,7 +57,7 @@ const cardsData = [
     name: "Pieds Jaunes",
     edition: "Edition 1",
     rarity: "Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Pieds_Jaunes.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 1/Rare/Pieds_Jaunes.png",
     description: "Une créature mystérieuse aux pieds jaunes. Son origine reste un mystère.",
     stats: { PV: 95, Attaque: 35, Défense: 25 }
   },
@@ -67,7 +67,7 @@ const cardsData = [
     name: "Ajar",
     edition: "Edition 1",
     rarity: "Double Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Ajar.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 1/Double Rare/Ajar.png",
     description: "Une entité mystique aux pouvoirs extraordinaires.",
     stats: { PV: 110, Attaque: 55, Défense: 35 }
   },
@@ -75,7 +75,7 @@ const cardsData = [
     name: "Le Bobo Ghetto",
     edition: "Edition 1",
     rarity: "Double Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Le_Bobo_Ghetto.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 1/Double Rare/Le_Bobo_Ghetto.png",
     description: "Un bobo des quartiers populaires. Plus street que les autres.",
     stats: { PV: 90, Attaque: 40, Défense: 30 }
   },
@@ -83,7 +83,7 @@ const cardsData = [
     name: "Poissanyme",
     edition: "Edition 1",
     rarity: "Double Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Poissanyme.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 1/Double Rare/Poissanyme.png",
     description: "Une créature aquatique mystérieuse. Maître des océans Anyme.",
     stats: { PV: 100, Attaque: 45, Défense: 40 }
   },
@@ -93,7 +93,7 @@ const cardsData = [
     name: "Esthewww",
     edition: "Edition 1",
     rarity: "Ultra Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Esthewww.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 1/Ultra Rare/Esthewww.png",
     description: "Une beauté légendaire qui ensorcelle tous ceux qui la croisent.",
     stats: { PV: 85, Attaque: 30, Défense: 45 }
   },
@@ -101,7 +101,7 @@ const cardsData = [
     name: "Le Fury",
     edition: "Edition 1",
     rarity: "Ultra Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Le_Fury.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 1/Ultra Rare/Le_Fury.png",
     description: "Un guerrier enragé aux pouvoirs destructeurs.",
     stats: { PV: 120, Attaque: 70, Défense: 20 }
   },
@@ -109,7 +109,7 @@ const cardsData = [
     name: "Squntt",
     edition: "Edition 1",
     rarity: "Ultra Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Squntt.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 1/Ultra Rare/Squntt.png",
     description: "Une créature mystérieuse aux pouvoirs cachés.",
     stats: { PV: 95, Attaque: 50, Défense: 35 }
   },
@@ -119,15 +119,15 @@ const cardsData = [
     name: "Le Chevalier",
     edition: "Edition 1",
     rarity: "Amazing Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Le_Chevalier.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 1/Amazing Rare/Le_Chevalier.png",
     description: "Un chevalier légendaire, protecteur de l'univers Anyme.",
     stats: { PV: 130, Attaque: 60, Défense: 50 }
   },
   {
-    name: "Card 2025-3-19-19-3-20",
+    name: "Mataaaaaa Ex",
     edition: "Edition 1",
     rarity: "Amazing Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/card-2025-3-19-19-3-20.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 1/Amazing Rare/Mataaaaaa Ex.png",
     description: "Une carte mystérieuse avec des pouvoirs inconnus.",
     stats: { PV: 150, Attaque: 80, Défense: 60 }
   },
@@ -137,7 +137,7 @@ const cardsData = [
     name: "Skibidi023 Ex",
     edition: "Promotion",
     rarity: "Ultra Rare",
-    image: "https://cdn.discordapp.com/attachments/1337148918206828689/1363199951361937632/card-2025-3-19-19-9-35.png?ex=6868b3a3&is=68676223&hm=07d4cde2ff68cbf2f5e69c339c6b522a37d3f32a4903d2a4d93535f572703595",
+    image: "Assets/Card/Promotion/Skibidi023 Ex.png",
     description: "Une carte promo exclusive pour les vrais fans. Édition limitée et numérotée.",
     stats: { PV: 90, Attaque: 35, Défense: 25 }
   },
@@ -145,7 +145,7 @@ const cardsData = [
     name: "900K MERCI GOLD",
     edition: "Promotion",
     rarity: "Amazing Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/900K_MERCI_GOLD.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Promotion/900K_MERCI_GOLD.png",
     description: "Carte spéciale pour célébrer les 900K abonnés. Une pièce de collection unique.",
     stats: { PV: 200, Attaque: 100, Défense: 100 }
   },
@@ -157,7 +157,7 @@ const cardsData = [
     name: "Andrew Williams",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Common",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/andrew_williams.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Common/andrew_williams.png",
     description: "Un personnage mystérieux de l'ère Shatta.",
     stats: { PV: 75, Attaque: 25, Défense: 15 }
   },
@@ -165,7 +165,7 @@ const cardsData = [
     name: "Anychampy",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Common",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Anychampy.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Common/Anychampy.png",
     description: "Un champion de l'ère Shatta.",
     stats: { PV: 80, Attaque: 30, Défense: 20 }
   },
@@ -173,7 +173,7 @@ const cardsData = [
     name: "Anymatcha",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Common",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Anymatcha.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Common/Anymatcha.png",
     description: "Une créature mystique de l'ère Shatta.",
     stats: { PV: 70, Attaque: 35, Défense: 15 }
   },
@@ -181,7 +181,7 @@ const cardsData = [
     name: "Apero",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Common",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Apero.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Common/Apero.png",
     description: "Le roi de l'apéro dans l'ère Shatta.",
     stats: { PV: 65, Attaque: 20, Défense: 25 }
   },
@@ -189,7 +189,7 @@ const cardsData = [
     name: "Aubervilliers",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Common",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/aubervilliers.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Common/aubervilliers.png",
     description: "Représentant de la ville d'Aubervilliers dans l'ère Shatta.",
     stats: { PV: 85, Attaque: 25, Défense: 30 }
   },
@@ -197,7 +197,7 @@ const cardsData = [
     name: "Charlot",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Common",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Charlot.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Common/Charlot.png",
     description: "Un personnage comique de l'ère Shatta.",
     stats: { PV: 60, Attaque: 15, Défense: 20 }
   },
@@ -205,7 +205,7 @@ const cardsData = [
     name: "Doboumboum",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Common",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/doboumboum.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Common/doboumboum.png",
     description: "Une créature explosive de l'ère Shatta.",
     stats: { PV: 55, Attaque: 50, Défense: 5 }
   },
@@ -213,7 +213,7 @@ const cardsData = [
     name: "Elecbrice",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Common",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Elecbrice.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Common/Elecbrice.png",
     description: "Une créature électrique mystérieuse.",
     stats: { PV: 70, Attaque: 40, Défense: 10 }
   },
@@ -221,7 +221,7 @@ const cardsData = [
     name: "Lartisan",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Common",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Lartisan.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Common/Lartisan.png",
     description: "Un artisan talentueux de l'ère Shatta.",
     stats: { PV: 75, Attaque: 20, Défense: 35 }
   },
@@ -229,7 +229,7 @@ const cardsData = [
     name: "Le Bobo de Matchaland",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Common",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Le_bobo_de_matchaland.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Common/Le_bobo_de_matchaland.png",
     description: "Un bobo spécialisé dans les matchs de l'ère Shatta.",
     stats: { PV: 80, Attaque: 35, Défense: 25 }
   },
@@ -237,7 +237,7 @@ const cardsData = [
     name: "Le Rap Mojo",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Common",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Le_Rap_Mojo.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Common/Le_Rap_Mojo.png",
     description: "Un rappeur légendaire de l'ère Shatta.",
     stats: { PV: 75, Attaque: 30, Défense: 20 }
   },
@@ -245,7 +245,7 @@ const cardsData = [
     name: "Patrick Foire",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Common",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Patrick_Foire.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Common/Patrick_Foire.png",
     description: "Un personnage mystérieux de l'ère Shatta.",
     stats: { PV: 70, Attaque: 25, Défense: 30 }
   },
@@ -253,7 +253,7 @@ const cardsData = [
     name: "Redbull",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Common",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Redbull.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Common/Redbull.png",
     description: "Une créature énergique de l'ère Shatta.",
     stats: { PV: 65, Attaque: 45, Défense: 15 }
   },
@@ -261,7 +261,7 @@ const cardsData = [
     name: "Sarcelles",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Common",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/sarcelles.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Common/sarcelles.png",
     description: "Représentant de la ville de Sarcelles dans l'ère Shatta.",
     stats: { PV: 80, Attaque: 25, Défense: 30 }
   },
@@ -271,7 +271,7 @@ const cardsData = [
     name: "Anymversaire",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Anymversaire.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Rare/Anymversaire.png",
     description: "Un personnage célèbre de l'ère Shatta.",
     stats: { PV: 90, Attaque: 35, Défense: 25 }
   },
@@ -279,7 +279,7 @@ const cardsData = [
     name: "Juanhijo",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Juanhijo.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Rare/Juanhijo.png",
     description: "Un personnage mystérieux de l'ère Shatta.",
     stats: { PV: 85, Attaque: 40, Défense: 20 }
   },
@@ -287,7 +287,7 @@ const cardsData = [
     name: "Le Charmeur",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Le_charmeur.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Rare/Le_charmeur.png",
     description: "Un charmeur légendaire de l'ère Shatta.",
     stats: { PV: 80, Attaque: 25, Défense: 40 }
   },
@@ -295,7 +295,7 @@ const cardsData = [
     name: "Le Dealer",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/le_dealer.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Rare/le_dealer.png",
     description: "Un dealer mystérieux de l'ère Shatta.",
     stats: { PV: 75, Attaque: 45, Défense: 15 }
   },
@@ -303,7 +303,7 @@ const cardsData = [
     name: "Le Peril",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Le_peril.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Rare/Le_peril.png",
     description: "Une créature dangereuse de l'ère Shatta.",
     stats: { PV: 95, Attaque: 50, Défense: 20 }
   },
@@ -311,7 +311,7 @@ const cardsData = [
     name: "Le Skatos",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Le_skatos.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Rare/Le_skatos.png",
     description: "Un personnage mystérieux de l'ère Shatta.",
     stats: { PV: 85, Attaque: 35, Défense: 30 }
   },
@@ -321,7 +321,7 @@ const cardsData = [
     name: "Cebedouze Ex",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Double Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/cebedouze_ex.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Double Rare/cebedouze_ex.png",
     description: "Une version exclusive de Cebedouze.",
     stats: { PV: 110, Attaque: 55, Défense: 35 }
   },
@@ -329,7 +329,7 @@ const cardsData = [
     name: "Do Brazil Ex",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Double Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/do_brazil_ex.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Double Rare/do_brazil_ex.png",
     description: "Une version exclusive de Do Brazil.",
     stats: { PV: 105, Attaque: 50, Défense: 40 }
   },
@@ -337,7 +337,7 @@ const cardsData = [
     name: "Mr Gym Ex",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Double Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Mr_gym_ex.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Double Rare/Mr_gym_ex.png",
     description: "Une version exclusive de Mr Gym.",
     stats: { PV: 115, Attaque: 45, Défense: 45 }
   },
@@ -345,7 +345,7 @@ const cardsData = [
     name: "Shamballa Ex",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Double Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/ShamballaEX.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Double Rare/ShamballaEX.png",
     description: "Une version exclusive de Shamballa.",
     stats: { PV: 120, Attaque: 60, Défense: 40 }
   },
@@ -355,7 +355,7 @@ const cardsData = [
     name: "Cebedouze Ex Full Art",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Ultra Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/cebedouze_ex_fullart.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Ultra Rare/cebedouze_ex_fullart.png",
     description: "Version Full Art exclusive de Cebedouze.",
     stats: { PV: 125, Attaque: 65, Défense: 45 }
   },
@@ -363,7 +363,7 @@ const cardsData = [
     name: "Do Brazil Ex Full Art",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Ultra Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/do_brazil_ex_FULL_ART.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Ultra Rare/do_brazil_ex_FULL_ART.png",
     description: "Version Full Art exclusive de Do Brazil.",
     stats: { PV: 120, Attaque: 60, Défense: 50 }
   },
@@ -371,7 +371,7 @@ const cardsData = [
     name: "Lartisan Originel",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Ultra Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Lartisan_originel.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Ultra Rare/Lartisan_originel.png",
     description: "L'artisan originel, maître de son art dans l'ère Shatta.",
     stats: { PV: 100, Attaque: 40, Défense: 30 }
   },
@@ -379,7 +379,7 @@ const cardsData = [
     name: "Mr Gym Ex Full Art",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Ultra Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/MR_GYM_EXFA.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Ultra Rare/MR_GYM_EXFA.png",
     description: "Version Full Art exclusive de Mr Gym.",
     stats: { PV: 130, Attaque: 50, Défense: 55 }
   },
@@ -387,7 +387,7 @@ const cardsData = [
     name: "Shamballa Ex Full Art",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Ultra Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Shamballa_EX_FApsd.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Ultra Rare/Shamballa_EX_FApsd.png",
     description: "Version Full Art exclusive de Shamballa.",
     stats: { PV: 135, Attaque: 70, Défense: 50 }
   },
@@ -395,7 +395,7 @@ const cardsData = [
     name: "Zentrax",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Ultra Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Zentrax.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Ultra Rare/Zentrax.png",
     description: "Une créature mystérieuse et puissante de l'ère Shatta.",
     stats: { PV: 140, Attaque: 75, Défense: 45 }
   },
@@ -405,7 +405,7 @@ const cardsData = [
     name: "Baguette Hyper Rare",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Amazing Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/BAGUETTE_HYPER_RARE.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Amazing Rare/BAGUETTE_HYPER_RARE.png",
     description: "La baguette la plus rare de l'ère Shatta. Un objet de légende.",
     stats: { PV: 150, Attaque: 80, Défense: 60 }
   },
@@ -413,7 +413,7 @@ const cardsData = [
     name: "Bonnet d'Anyme Gold",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Amazing Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Bonnet_danyme_gold.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Amazing Rare/Bonnet_danyme_gold.png",
     description: "Un bonnet doré légendaire de l'ère Shatta.",
     stats: { PV: 160, Attaque: 70, Défense: 70 }
   },
@@ -421,7 +421,7 @@ const cardsData = [
     name: "Shamballa GOLD",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Amazing Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Shamballa_GOLD.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Amazing Rare/Shamballa_GOLD.png",
     description: "La carte la plus précieuse de l'ère Shatta. Une légende parmi les légendes.",
     stats: { PV: 120, Attaque: 50, Défense: 40 }
   },
@@ -429,7 +429,7 @@ const cardsData = [
     name: "Shamballa SHINY",
     edition: "Edition 3 - Ere Shatta",
     rarity: "Amazing Rare",
-    image: "https://media.discordapp.net/attachments/1362473368099491840/1362473997039697980/Shamballa_SHINY.png?ex=6868b28a&is=6867610a&hm=187166be5d65f38cfdf6d2b7bc8e2742375a35366a04a339faf6dac17c6f34a7&format=webp&quality=lossless&width=664&height=930",
+    image: "Assets/Card/Edition 3 - Ere Shatta/Amazing Rare/Shamballa_SHINY.png",
     description: "Version Shiny ultra-rare de Shamballa. La plus précieuse de toutes.",
     stats: { PV: 200, Attaque: 100, Défense: 80 }
   }
