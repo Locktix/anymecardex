@@ -464,11 +464,20 @@ body {
 
 @media (max-width: 480px) {
     .cards-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
     }
     
     .card-image {
-        height: 300px;
+        height: 200px;
+    }
+    
+    .card-name {
+        font-size: 0.9rem;
+    }
+    
+    .card-details {
+        font-size: 0.8rem;
     }
     
     .card-detail-image {
