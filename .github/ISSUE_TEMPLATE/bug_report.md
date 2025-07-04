@@ -3,7 +3,7 @@ name: 🐛 Signaler un problème
 about: Aidez-nous à améliorer Anymecardex en signalant un bug ou un problème
 title: '[BUG] '
 labels: ['bug', 'user-report']
-assignees: ['alanp']
+assignees: ['Locktix']
 ---
 
 ## 🐛 Description du problème

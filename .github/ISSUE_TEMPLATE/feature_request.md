@@ -3,7 +3,7 @@ name: 💡 Suggestion de fonctionnalité
 about: Proposez une nouvelle fonctionnalité pour Anymecardex
 title: '[FEATURE] '
 labels: ['enhancement', 'user-request']
-assignees: ['alanp']
+assignees: ['Locktix']
 ---
 
 ## 💡 Description de la fonctionnalité

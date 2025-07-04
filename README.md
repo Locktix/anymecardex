@@ -98,7 +98,7 @@ Si vous souhaitez contribuer au développement :
 
 ```bash
 # Cloner le repository
-git clone https://github.com/alanp/AnymeTCG.git
+git clone https://github.com/Locktix/AnymeTCG.git
 cd AnymeTCG
 
 # Lancer le serveur de développement
@@ -140,8 +140,8 @@ AnymeTCG/
 
 ## 📞 Contact
 
-- **GitHub** : [@alanp](https://github.com/alanp)
-- **Issues** : [GitHub Issues](https://github.com/alanp/AnymeTCG/issues)
+- **GitHub** : [@Locktix](https://github.com/Locktix)
+- **Issues** : [GitHub Issues](https://github.com/Locktix/AnymeTCG/issues)
 
 ---
 
