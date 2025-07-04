@@ -13,6 +13,21 @@ const rarityClass = {
 // Gestion de la collection avec cookies
 let userCollection = new Set();
 
+// Fonction pour compter les visites
+function trackVisit() {
+  let visitCount = localStorage.getItem('anymecardex_visits') || 0;
+  visitCount = parseInt(visitCount) + 1;
+  localStorage.setItem('anymecardex_visits', visitCount);
+  
+  // Afficher le compteur dans le footer
+  const footerVersion = document.getElementById('footerVersion');
+  if (footerVersion) {
+    footerVersion.textContent = `Beta 1.0.5 | ${visitCount} visite${visitCount > 1 ? 's' : ''}`;
+  }
+  
+  return visitCount;
+}
+
 // Fonctions pour gérer les cookies
 function saveCollection() {
   const collectionArray = Array.from(userCollection);
@@ -192,6 +207,7 @@ function showLoading() {
 
 // Initialisation avec animation
 document.addEventListener('DOMContentLoaded', function() {
+  trackVisit(); // Compter la visite
   loadTheme(); // Charger le thème sauvegardé
   loadCollection(); // Charger la collection depuis les cookies
   updateCollectionStats(); // Mettre à jour les statistiques
