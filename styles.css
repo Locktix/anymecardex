@@ -763,11 +763,6 @@ body {
     color: var(--text-primary);
 }
 
-[data-theme="dark"] .header {
-    background: var(--bg-secondary);
-    border-bottom: 1px solid var(--border-color);
-}
-
 [data-theme="dark"] .logo {
     color: var(--accent-color);
 }
@@ -896,11 +891,14 @@ body {
 }
 
 [data-theme="dark"] .close {
-    color: var(--text-secondary);
+    background: #1e293b !important;
+    color: var(--text-secondary) !important;
+    border: none;
 }
 
 [data-theme="dark"] .close:hover {
-    color: var(--text-primary);
+    color: var(--text-primary) !important;
+    background: #334155 !important;
 }
 
 [data-theme="dark"] .footer {
@@ -968,4 +966,12 @@ body {
 /* Smooth transition for theme switching */
 * {
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+[data-theme="dark"] .header-content {
+    background: rgba(30, 41, 59, 0.95);
+}
+
+[data-theme="dark"] .card-detail-image {
+    background: #1e293b;
 } 
