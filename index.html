@@ -60,6 +60,15 @@
                             <option value="edition">Édition</option>
                         </select>
                     </div>
+                    
+                    <div class="filter-group">
+                        <label for="ownedFilter">Affichage:</label>
+                        <select id="ownedFilter">
+                            <option value="all">Toutes les cartes</option>
+                            <option value="owned">Masquer les non possédées</option>
+                            <option value="missing">Masquer les possédées</option>
+                        </select>
+                    </div>
                 </div>
             </div>
         </section>
@@ -70,6 +79,10 @@
                 <h2>Collection de Cartes</h2>
                 <div class="cards-count">
                     <span id="cardsCount">0</span> cartes trouvées
+                    <div id="collectionStats" class="collection-info">
+                        <span class="collection-count">0/51</span>
+                        <span class="collection-percentage">(0%)</span>
+                    </div>
                 </div>
             </div>
             
