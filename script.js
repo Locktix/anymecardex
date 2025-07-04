@@ -290,14 +290,12 @@ function loadLazyImages() {
 }
 
 // Affichage dynamique de la version dans le footer
-fetch('version.txt')
-  .then(response => response.text())
-  .then(version => {
-    const footerVersion = document.getElementById('footerVersion');
-    if (footerVersion) {
-      footerVersion.textContent = version.trim();
-    }
-  });
+document.addEventListener('DOMContentLoaded', function() {
+  const footerVersion = document.getElementById('footerVersion');
+  if (footerVersion) {
+    footerVersion.textContent = CONFIG.version;
+  }
+});
 
 // Gestion du thème sombre
 function loadTheme() {

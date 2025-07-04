@@ -2,7 +2,7 @@
 const CONFIG = {
   // Informations du projet
   projectName: "Anymecardex",
-  version: "1.0.0",
+  version: "1.0.6",
   description: "Collection de cartes Anyme",
   
   // Paramètres d'affichage
