@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anymecardex - Collection de Cartes Anyme</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="logo">
+                    <i class="fas fa-cards-blank"></i>
+                    Anymecardex
+                </h1>
+                <p class="subtitle">Votre collection de cartes Anyme</p>
+            </div>
+        </header>
+
+        <!-- Search and Filters Section -->
+        <section class="search-section">
+            <div class="search-container">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="Rechercher une carte par nom...">
+                </div>
+                
+                <div class="filters">
+                    <div class="filter-group">
+                        <label for="editionFilter">Édition:</label>
+                        <select id="editionFilter">
+                            <option value="">Toutes les éditions</option>
+                            <option value="Edition 1">Édition 1</option>
+                            <option value="Edition 3 - Ere Shatta">Édition 3 - Ere Shatta</option>
+                            <option value="Promotion">Promotion</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="rarityFilter">Rareté:</label>
+                        <select id="rarityFilter">
+                            <option value="">Toutes les raretés</option>
+                            <option value="Common">Commune</option>
+                            <option value="Rare">Rare</option>
+                            <option value="Double Rare">Double Rare</option>
+                            <option value="Ultra Rare">Ultra Rare</option>
+                            <option value="Amazing Rare">Amazing Rare</option>
+                        </select>
+                    </div>
+                    
+                    <div class="filter-group">
+                        <label for="sortBy">Trier par:</label>
+                        <select id="sortBy">
+                            <option value="name">Nom</option>
+                            <option value="rarity">Rareté</option>
+                            <option value="edition">Édition</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cards Grid -->
+        <section class="cards-section">
+            <div class="cards-header">
+                <h2>Collection de Cartes</h2>
+                <div class="cards-count">
+                    <span id="cardsCount">0</span> cartes trouvées
+                </div>
+            </div>
+            
+            <div class="cards-grid" id="cardsGrid">
+                <!-- Les cartes seront générées ici par JavaScript -->
+            </div>
+        </section>
+
+        <!-- Card Detail Modal -->
+        <div class="modal" id="cardModal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div class="card-detail" id="cardDetail">
+                    <!-- Les détails de la carte seront affichés ici -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
