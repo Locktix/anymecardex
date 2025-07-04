@@ -1,56 +1,51 @@
 # 🃏 Anymecardex
 
-Une application web moderne pour consulter et gérer votre collection de cartes Anyme, inspirée de PokéCardex.
+Une application web moderne et gratuite pour consulter et gérer votre collection de cartes Anyme, inspirée de PokéCardex.
 
-## ✨ Fonctionnalités
+## 🌐 Accès au site
 
-- **🔍 Recherche avancée** : Recherchez vos cartes par nom
-- **🎯 Filtres intelligents** : Filtrez par édition et rareté
-- **📊 Tri personnalisé** : Triez par nom, rareté ou édition
-- **🖼️ Affichage détaillé** : Cliquez sur une carte pour voir ses détails complets
-- **📱 Design responsive** : Interface adaptée à tous les écrans
-- **🎨 Interface moderne** : Design épuré avec animations fluides
+**Site officiel :** [https://locktix.github.io/anymecardex/](https://locktix.github.io/anymecardex/)
 
-## 🚀 Utilisation
+## 📋 À propos du projet
 
-1. Ouvrez `index.html` dans votre navigateur
-2. Utilisez la barre de recherche pour trouver une carte
-3. Utilisez les filtres pour affiner votre recherche
-4. Cliquez sur une carte pour voir ses détails
-5. Utilisez le tri pour organiser vos cartes
+Anymecardex est un projet de fan développé par passion pour la communauté Anyme. Ce site permet de consulter l'intégralité des cartes Anyme disponibles, avec des fonctionnalités avancées de recherche, filtrage et gestion de collection personnelle.
 
-## 🎮 Contrôles
+### ⚠️ Important - Non-affiliation
 
-- **Recherche** : Tapez le nom d'une carte dans la barre de recherche
-- **Filtres** : Sélectionnez une édition ou une rareté dans les menus déroulants
-- **Tri** : Choisissez l'ordre d'affichage des cartes
-- **Détails** : Cliquez sur une carte pour ouvrir la vue détaillée
-- **Fermer** : Cliquez sur le X ou en dehors de la modal pour fermer
+**Ce site est un projet de fan et n'est en aucun cas affilié à :**
+- Anyme023 (créateur original des cartes)
+- Le serveur Discord officiel d'Anyme023
+- Toute entité commerciale liée aux cartes Anyme
 
-## 🎨 Design
+**Droits d'auteur :**
+- © 2024 Anymecardex - Tous droits réservés sur le code et le design du site
+- Les images et noms de cartes restent la propriété de leurs auteurs respectifs
 
-- **Thème** : Interface moderne avec dégradés et effets de transparence
-- **Couleurs** : Palette violet/bleu avec accents colorés selon la rareté
-- **Animations** : Transitions fluides et effets de survol
-- **Responsive** : S'adapte automatiquement aux différentes tailles d'écran
+## ✨ Fonctionnalités principales
 
-## 📁 Structure du projet
+### 🔍 **Recherche et filtrage**
+- Recherche instantanée par nom de carte
+- Filtres par édition (Édition 1, Édition 3 - Ere Shatta, Promotion)
+- Filtres par rareté (Commune, Rare, Double Rare, Ultra Rare, Amazing Rare)
+- Tri personnalisé par nom, rareté ou édition
 
-```
-AnymeTCG/
-├── index.html          # Page principale
-├── styles.css          # Styles CSS
-├── script.js           # Logique JavaScript
-├── cards-data.js       # Base de données des cartes (51 cartes)
-├── config.js           # Configuration
-├── README.md           # Documentation complète
-├── .gitignore          # Fichiers à ignorer
-└── Assets/             # Images des cartes
-    └── Card/
-        ├── Edition 1/          # 15 cartes
-        ├── Edition 3 - Ere Shatta/  # 34 cartes
-        └── Promotion/          # 2 cartes
-```
+### 📊 **Gestion de collection**
+- Système de collection personnelle avec cases à cocher
+- Sauvegarde automatique dans les cookies (pas de compte requis)
+- Compteur de progression (X/51 cartes, pourcentage)
+- Filtres d'affichage : toutes les cartes, masquer les possédées/non possédées
+
+### 🖼️ **Interface moderne**
+- Design responsive adapté à tous les écrans
+- Affichage détaillé des cartes avec modal
+- Animations fluides et transitions élégantes
+- Lazy loading pour des performances optimales
+
+### 🎮 **Expérience utilisateur**
+- Interface intuitive et moderne
+- Chargement optimisé des images
+- Navigation fluide et rapide
+- Support mobile complet
 
 ## 📊 Collection complète
 
@@ -63,29 +58,22 @@ AnymeTCG/
 - **Promotion** : 2 cartes
   - 1 Ultra Rare, 1 Amazing Rare
 
-## 🌐 Publication
+## 🚀 Utilisation
 
-Ce projet peut être facilement publié sur GitHub Pages :
+1. **Accédez au site** : [https://locktix.github.io/anymecardex/](https://locktix.github.io/anymecardex/)
+2. **Recherchez** : Utilisez la barre de recherche pour trouver une carte
+3. **Filtrez** : Sélectionnez une édition ou une rareté
+4. **Triez** : Choisissez l'ordre d'affichage (par défaut : rareté)
+5. **Gérez votre collection** : Cochez les cartes que vous possédez
+6. **Consultez les détails** : Cliquez sur une carte pour voir ses informations complètes
 
-1. Poussez le code sur GitHub
-2. Allez dans Settings → Pages
-3. Sélectionnez la branche `main`
-4. Votre site sera accessible à `https://votre-username.github.io/AnymeTCG/`
+## 🎨 Design et technologie
 
-## 🔧 Personnalisation
-
-Pour ajouter vos propres cartes, modifiez le tableau `cardsData` dans `script.js` :
-
-```javascript
-{
-  name: "Nom de la carte",
-  edition: "Édition",
-  rarity: "Rareté",
-  image: "URL de l'image",
-  description: "Description de la carte",
-  stats: { PV: 100, Attaque: 50, Défense: 30 }
-}
-```
+- **Frontend** : HTML5, CSS3, JavaScript vanilla
+- **Design** : Interface moderne avec dégradés et effets de transparence
+- **Couleurs** : Palette violet/bleu avec accents colorés selon la rareté
+- **Responsive** : S'adapte automatiquement aux différentes tailles d'écran
+- **Performance** : Lazy loading, compression gzip, cache optimisé
 
 ## 📱 Compatibilité
 
@@ -95,15 +83,68 @@ Pour ajouter vos propres cartes, modifiez le tableau `cardsData` dans `script.js
 - ✅ Edge
 - ✅ Mobile (iOS/Android)
 
+## 🤝 Contribution
+
+Vous avez trouvé un bug ou une erreur ? Vous souhaitez suggérer une nouvelle fonctionnalité ?
+
+- **Signaler un problème** : Utilisez le bouton "Signaler un problème" dans le footer
+- **Suggérer une fonctionnalité** : Utilisez le bouton "Suggérer une fonctionnalité" dans le footer
+
+Ces boutons créent directement des issues sur GitHub pour faciliter le suivi et l'amélioration du projet.
+
+## 🔧 Développement local
+
+Si vous souhaitez contribuer au développement :
+
+```bash
+# Cloner le repository
+git clone https://github.com/alanp/AnymeTCG.git
+cd AnymeTCG
+
+# Lancer le serveur de développement
+python server.py
+
+# Accéder au site local
+# http://localhost:8000
+```
+
+## 📁 Structure du projet
+
+```
+AnymeTCG/
+├── index.html              # Page principale
+├── styles.css              # Styles CSS
+├── script.js               # Logique JavaScript
+├── cards-data.js           # Base de données des cartes (51 cartes)
+├── config.js               # Configuration
+├── server.py               # Serveur de développement Python
+├── version.txt             # Version du site
+├── README.md               # Documentation
+├── .gitignore              # Fichiers à ignorer
+├── .github/                # Templates d'issues GitHub
+└── Assets/                 # Images des cartes
+    └── Card/
+        ├── Edition 1/              # 15 cartes
+        ├── Edition 3 - Ere Shatta/  # 34 cartes
+        └── Promotion/              # 2 cartes
+```
+
 ## 🎯 Prochaines fonctionnalités
 
-- [ ] Système de collection personnelle
-- [ ] Export/import de données
 - [ ] Mode sombre
-- [ ] Animations 3D
+- [ ] Export/import de collection
+- [ ] Statistiques avancées
 - [ ] Système de favoris
-- [ ] Statistiques de collection
+- [ ] Animations 3D
+- [ ] Mode hors ligne
+
+## 📞 Contact
+
+- **GitHub** : [@alanp](https://github.com/alanp)
+- **Issues** : [GitHub Issues](https://github.com/alanp/AnymeTCG/issues)
 
 ---
 
 **Développé avec ❤️ pour la communauté Anyme**
+
+*Ce projet est maintenu bénévolement et n'a aucun but commercial.*
